@@ -1,0 +1,82 @@
+.card{
+    width:20%;
+    margin: auto;
+}
+
+.card img {
+    padding: 1rem;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.time_control{
+    background-color: lightgrey;
+    height: 8px;
+    width: 95%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.time_control i{
+    float: left;
+    color: blue;
+    transform: translate(0,-25%);
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 95%;
+}
+
+.control_button {
+    border-bottom: 1px solid grey;
+}
+
+.menu_voice {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_voice button {
+    float: left;
+}
+
+.voice_control {
+    background-color: gray;
+    height: 5px;
+    width: 80px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.voice_control i{
+    float: left;
+    color: blue;
+    transform: translate(0,-30%);
+}
+
+.voice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 105px;
+}
+
+.collapse .card ul li {
+    list-style: none;
+}
+
+.control_button i{
+    font-size: 20px;
+}
+
+#play {
+    font-size: 30px;
+}
+
+
